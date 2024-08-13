@@ -1,8 +1,8 @@
 {
-  "name": "web-connectionz-base-ecomm",
-  "title": "Web Connectionz Bse E-Comm",
+  "name": "swag-lab",
+  "title": "Swag Lab",
   "private": true,
-  "version": "1.0.1",
+  "version": "0.1.9-rc1",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev --host",

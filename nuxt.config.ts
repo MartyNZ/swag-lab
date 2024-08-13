@@ -204,16 +204,16 @@ export default defineNuxtConfig({
   css: ["~/assets/css/base.css"],
 
   sanity: {
-    projectId: process.env.SANITY_STUDIO_PROJECT_ID,
-    dataset: process.env.SANITY_STUDIO_DATASET,
-    apiVersion: process.env.SANITY_STUDIO_API_VERSION,
+    projectId: process.env.NUXT_PUBLIC_SANITY_PROJECT_ID,
+    dataset: process.env.NUXT_PUBLIC_SANITY_DATASET,
+    apiVersion: process.env.NUXT_SANITY_API_VERSION,
   },
 
   runtimeConfig: {
     public: {
       sanity: {
-        projectId: process.env.SANITY_STUDIO_PROJECT_ID,
-        dataset: process.env.SANITY_STUDIO_DATASET,
+        projectId: process.env.NUXT_PUBLIC_SANITY_PROJECT_ID,
+        dataset: process.env.NUXT_PUBLIC_SANITY_DATASET,
       },
       titleSeparator: "|",
       siteName: process.env.NUXT_SITE_NAME,
@@ -221,7 +221,7 @@ export default defineNuxtConfig({
       snipCartApiKey: process.env.SNIPCART_API_KEY,
     },
     sanity: {
-      token: process.env.SANITY_STUDIO_ADMIN_AUTH_TOKEN,
+      token: process.env.NUXT_SANITY_TOKEN,
     },
     printifyStoreId: process.env.PRINTIFY_STORE_ID,
     printifyBearerToken: process.env.PRINTIFY_BEARER_TOKEN,
