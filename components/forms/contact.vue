@@ -1,10 +1,10 @@
 <script setup>
 const data = useSiteSettingsStore();
 const settings = data.settings;
-import InputText from "primevue/inputtext";
-import Button from "primevue/button";
-import Textarea from "primevue/textarea";
-import ProgressSpinner from "primevue/progressspinner";
+// import InputText from "primevue/inputtext";
+// import Button from "primevue/button";
+// import Textarea from "primevue/textarea";
+// import ProgressSpinner from "primevue/progressspinner";
 
 const name = ref("");
 const email = ref("");
