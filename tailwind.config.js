@@ -15,7 +15,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      brand: ", Graduate, Noto Serif',  system-ui, sans-serif",
+      brand: "Graduate, 'Noto Serif',  system-ui, sans-serif",
       system: "system-ui, sans-serif",
     },
     extend: {
